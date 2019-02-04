@@ -1,0 +1,3 @@
+# Delete all the container images stroed on the Char virtual machine, in one command.
+
+docker rmi -f $(docker images -q)
